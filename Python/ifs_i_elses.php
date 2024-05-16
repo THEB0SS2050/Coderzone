@@ -82,7 +82,7 @@ session_start();
 					</a>
 				</li>
 				<li class="nav-link">
-					<a href="arrays.php.php">
+					<a href="arrays.php">
 						<i class='bx bxl-python icon'></i>
 						<span class="text nav-text">Arrays</span>
 					</a>

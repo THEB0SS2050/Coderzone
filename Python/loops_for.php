@@ -201,7 +201,6 @@ for i in range(5):
 					<p>El bucle for és útil per recórrer llistes i realitzar operacions en cada element, com ara càlculs, modificacions, filtratges, etc.</p>
 					<p>També es pot utilitzar per generar noves llistes o transformar dades d'una seqüència a una altra mitjançant comprensions de llistes (list comprehensions).</p>
 					
-                <h2>Exercicis</h2>
 	</section>
 	<script src="../Logica/verificacio.js"></script>
 </body>

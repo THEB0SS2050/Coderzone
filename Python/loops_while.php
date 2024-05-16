@@ -223,7 +223,6 @@ while i < 5:
 						<p>console.log(new Date().getFullYear()); // Any actual</p>
 					</div>
 					</a>
-                <h2>Exercicis</h2>
 	</section>
 	<script src="../Logica/verificacio.js"></script>
 </body>

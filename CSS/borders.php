@@ -39,39 +39,39 @@ session_start();
 		</header>
 
 	<div class="menu-bar">
-		<div class="menu">
+	<div class="menu">
 			<li class="search-box">
 				<i class='bx bx-search icon'></i>
 					<input id="searchInput" type="search" placeholder="Buscar...">
 			</li>
 			<ul class="menu-links">
-                <li class="nav-link">
+				<li class="nav-link">
 					<a href="introduccio.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-css3 icon'></i>
 						<span class="text nav-text">Introducció</span>
 					</a>
 				</li>
-                <li class="nav-link">
+				<li class="nav-link">
 					<a href="conceptes_basics.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-css3 icon'></i>
 						<span class="text nav-text">Conceptes Bàsics</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="colors.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-css3 icon'></i>
 						<span class="text nav-text">Colors</span>
 					</a>
 				</li>
                 <li class="nav-link">
 					<a href="backgrounds.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-css3 icon'></i>
 						<span class="text nav-text">Backgrounds</span>
 					</a>
 				</li>
-                <li class="nav-link">
+				<li class="nav-link">
 					<a href="borders.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-css3 icon'></i>
 						<span class="text nav-text">Borders</span>
 					</a>
 				</li>

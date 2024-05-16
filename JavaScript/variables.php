@@ -1,4 +1,4 @@
-<?php tancar
+<?php
 session_start();
 
 	include("../connection.php");
@@ -47,49 +47,49 @@ session_start();
 			<ul class="menu-links">
 				<li class="nav-link">
 					<a href="introduccio.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Introducció</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="variables.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Variables</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="tipus_de_dades.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Tipus de dades</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="funcions.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Funcions</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="arrays.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Arrays</span>
 					</a>
 				</li>
                 <li class="nav-link">
 					<a href="objectes.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Objectes</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="loops.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">Loops</span>
 					</a>
 				</li>
 				<li class="nav-link">
 					<a href="ifs_i_elses.php">
-						<i class='bx bxl-python icon'></i>
+						<i class='bx bxl-javascript icon' ></i>
 						<span class="text nav-text">If's i Else</span>
 					</a>
 				</li>

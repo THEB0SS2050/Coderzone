@@ -83,7 +83,7 @@ session_start();
 					</a>
 				</li>
 				<li class="nav-link">
-					<a href="arrays.php.php">
+					<a href="arrays.php">
 						<i class='bx bxl-python icon'></i>
 						<span class="text nav-text">Arrays</span>
 					</a>
@@ -141,14 +141,6 @@ session_start();
 
 	<section class="info">
 
-		<nav class="navegacio">
-			<ul>
-				<li>Qui som?</li>
-				<li>Projectes</li>
-				<li>Sobre nosaltres</li>
-				<li>Cursos</li>
-			</ul>
-		</nav>
 
         <div class="text">
 			<h1>Introducció a python</h1>
@@ -164,22 +156,6 @@ session_start();
 			<p>Ara quan executem el fitxer  anterior veurem aquest missatge a la consola.</p>
 			<div class="exemple"><p>>> Missatge a mostrar</p></div>
 
-			<?php
-			$sql = "SELECT pregunta, resposta FROM preguntes WHERE id = 2 LIMIT 1;";
-			$result = mysqli_query($con, $sql);
-			$resultCheck = mysqli_num_rows($result);
-
-			if ($resultCheck > 0) {
-    			$row = mysqli_fetch_assoc($result);
-    			$pregunta = $row['pregunta'];
-    			$resposta_correcta = $row['resposta'];
-    			echo $pregunta . "<br>";
-			}
-			?>
-
-			<input type="text" id="respostaInput">
-			<input type="hidden" id="respostaCorrecta" value="<?php echo $resposta_correcta; ?>">
-			<button type="submit" onclick="mostrarResposta()">Enviar Resposta</button>
         </div>
 
 
